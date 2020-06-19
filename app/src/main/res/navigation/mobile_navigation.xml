@@ -40,4 +40,9 @@
         android:name="com.shenglu.passwords.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_generator"
+        android:name="com.shenglu.passwords.ui.generator.GeneratorFragment"
+        android:label="@string/menu_generator"
+        tools:layout="@layout/generator_fragment" />
 </navigation>
